@@ -1,0 +1,141 @@
+
+
+   body{
+    background-color: #F1EAF2;
+    color:white;
+    margin: 0;
+    padding: 0;
+  } 
+
+
+        .nav {
+          width: 100%;
+          height: 70px;
+          display: flex;
+          background-color: #090012;
+          margin-bottom: 100px;
+  
+          /* justify-content: center; */
+          align-items: center;
+        }
+        .nav > div {
+          width: 20%;
+          margin-left: 150px;
+          display: flex;
+          justify-content: space-around;
+          border: "5px solid white";
+        }
+        input {
+          height: 20px;
+        }
+        .nav button {
+          background-color: rgb(241, 113, 34);
+          border-radius: 15px;
+          border: none;
+        }
+  
+
+  
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: auto;
+    width: auto;
+  }
+  button{
+    background-color: black;
+    color: white;
+    padding: 2px 15px;
+    font-size: 20px;
+    cursor: pointer;
+  
+  }
+
+
+  #cont{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-style: bold;
+    font-family:Arial;
+    color: black;
+    /* border: 5px solid black; */
+
+  }
+  .box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #box1{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    /* justify-content: space-evenly; */
+    gap: 20px;
+    text-align: center;
+  }
+  #box1>div{
+    background-color: #090012;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, white 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+
+  @media all and (min-width: 480px) and (max-width: 720px) {
+      .nav>div{
+        width: 75%;
+        margin: auto;
+      }
+
+      .box{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      #box1{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+      }
+
+  }
+
+  @media all and (min-width: 320px) and (max-width: 480px) {
+    .nav>div{
+      width: 75%;
+      margin: auto;
+    }
+    .box{
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    #cont{
+      width: 90%;
+    }
+
+    #box1{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
