@@ -11,7 +11,9 @@
 
   <body>
     <div class="nav">
-      <div>
+      <div style="display:flex;width:50%;gap:5px; align-items: center;justify-content: center;">
+      <div><h1>Weather App</h1></div>
+      <div class="search-box">
         <div>
           <input type="text" id="city" placeholder="Enter city name" value="" />
         </div>
@@ -19,6 +21,7 @@
           <button id="submit" onclick="getWeather();display()">Submit</button>
         </div>
       </div>
+    </div>
     </div>
 
     <div class="box">
