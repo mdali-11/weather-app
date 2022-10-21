@@ -1,3 +1,5 @@
 # weather-app
 
-Netlify link : https://celadon-tarsier-5a5bd6.netlify.app/
+guthub-repo-link : 
+
+Netlify link : https://shimmering-tarsier-6ec760.netlify.app/
