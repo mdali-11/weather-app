@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .header{
+        display:flex; 
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
 
   </head>
 
   <body>
     <div class="nav">
-      <div style="display:flex;width:50%;gap:5px; align-items: center;justify-content: center;">
-      <div><h1>Weather App</h1></div>
+      <div class="header">
+      <div><h1 class="title">Weather App</h1></div>
       <div class="search-box">
         <div>
           <input type="text" id="city" placeholder="Enter city name" value="" />
@@ -43,6 +50,7 @@
         >
       </div>
     </div>
+    <div style="width:80%;margin: auto;margin-bottom: -50px;"><h2 style="text-align:left; color: black;">Seven day Forecast</h2></div>
     <div id="box1" onload="display()"></div>
   </body>
 </html>
