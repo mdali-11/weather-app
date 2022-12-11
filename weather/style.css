@@ -22,7 +22,7 @@
 
   .wa{
     width:max-content;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,24 +128,12 @@
 
 
   @media all and (min-width: 480px) and (max-width: 720px) {
-      
-
-
-
-   #navbar .nav{
-    margin-left:5%;
-      width:max-content;
-      /* border: 5px solid red; */
-    }
-
-
-
-      
+            
 
 
  
 
-      .box{
+      #box{
         width: 90%;
         margin: auto;
         display: flex;
@@ -164,11 +152,19 @@
  
   
     #navbar .nav{
+      width:90%;
       margin: auto;
-      width:max-content;
       display: flex;
-      gap:10px;
+      justify-content:center;
+      align-items: center;
+      gap:20px;
     }
+
+    #navbar .search_box{
+      gap: 5px;
+    }
+
+
 
     #navbar h1{
       font-size: 18px;
@@ -186,7 +182,7 @@
       justify-content: space-between;
       font-size:10px;
     }
-    .box{
+    #box{
       width: 90%;
       margin: auto;
       display: flex;
