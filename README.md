@@ -20,3 +20,6 @@ Individual Project duration 3 days
 Github Link : https://github.com/mdali-11/weather-app
 
 Netlify Link : https://eloquent-concha-9fefda.netlify.app/
+
+<img src="https://github.com/mdali-11/weather-app/blob/main/weather/pics/Screenshot%20(13131).png?raw=true" alt="wass1" />
+<img src="https://github.com/mdali-11/weather-app/blob/main/weather/pics/Screenshot%20(13132).png?raw=true" alt="wass1" />
