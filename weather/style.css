@@ -95,11 +95,13 @@
     /* border: 5px solid black; */
 
   }
-  .box{
+  #box{
     width: 80%;
     margin: auto;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    /* border: 5px solid red; */
   }
 
   #box1{
