@@ -7,34 +7,59 @@
     padding: 0;
   } 
 
+   
+  #navbar{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
 
-        .nav {
-          width: 100%;
-          height: 70px;
-          display: flex;
-          background-color: #090012;
-          margin-bottom: 100px;
+  }
+
+
+
+  .wa{
+    width:max-content;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar .nav{
+    margin-left: 100px;
+    width:max-content;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 5px solid red; */
+  }
+
   
-          /* justify-content: center; */
-          align-items: center;
-        }
-        .search-box {
-          width: 20%;
-          margin-left: 150px;
-          display: flex;
-          gap: 7px;
-          align-items: center;
-          justify-content: space-around;
-          border: "5px solid white";
-        }
-        input {
-          height: 20px;
-        }
-        .nav button {
-          background-color: rgb(241, 113, 34);
-          border-radius: 15px;
-          border: none;
-        }
+  #navbar input{
+    height: 20px;
+    display: block;
+  }
+
+  .search_box{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+  }
+
+  #navbar button{
+    display: block;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+  }
   
 
   
@@ -101,23 +126,20 @@
 
 
   @media all and (min-width: 480px) and (max-width: 720px) {
-      /* .nav>div{
-        width: 75%;
-        margin: auto;
-      } */
+      
 
-      .search-box{
-        margin: auto;
-      }
 
-      .header{
-        margin: auto;
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
-        justify-content: space-between;
-        font-size:10px;
-      }
+
+   #navbar .nav{
+    margin-left:5%;
+      width:max-content;
+      /* border: 5px solid red; */
+    }
+
+
+
+      
+
 
  
 
@@ -138,9 +160,21 @@
 
   @media all and (min-width: 320px) and (max-width: 480px) {
  
-    .search-box{
+  
+    #navbar .nav{
       margin: auto;
+      width:max-content;
+      display: flex;
+      gap:10px;
     }
+
+    #navbar h1{
+      font-size: 18px;
+    }
+
+
+  
+ 
 
     .header{
       margin: auto;
