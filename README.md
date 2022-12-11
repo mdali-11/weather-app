@@ -10,4 +10,4 @@ Areas of Responsibilities - Create a navbar with a search box to search for city
 
 Github Link : https://github.com/mdali-11/weather-app
 
-Netlify Link : https://shimmering-tarsier-6ec760.netlify.app/
+Netlify Link : https://eloquent-concha-9fefda.netlify.app/
